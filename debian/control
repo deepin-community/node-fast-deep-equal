@@ -1,0 +1,29 @@
+Source: node-fast-deep-equal
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Nidarsh Raj <nidarshraj@disroot.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-dot
+ , node-sinon <!nocheck>
+ , node-react <!nocheck>
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-fast-deep-equal
+Vcs-Git: https://salsa.debian.org/js-team/node-fast-deep-equal.git
+Homepage: https://github.com/epoberezkin/fast-deep-equal
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-fast-deep-equal
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Fast Deep Equal
+ Features
+  - ES5 compatible
+  - works in node.js (0.10+) and browsers (IE9+)
+  - checks equality of Date and RegExp objects by value.
+ .
+ Node.js is an event-based server-side JavaScript engine.
