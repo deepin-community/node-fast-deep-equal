@@ -9,7 +9,8 @@ Build-Depends: debhelper-compat (= 13)
  , node-dot
  , node-sinon <!nocheck>
  , node-react <!nocheck>
-Standards-Version: 4.5.1
+ , node-react-test-renderer <!nocheck>
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-fast-deep-equal
 Vcs-Git: https://salsa.debian.org/js-team/node-fast-deep-equal.git
 Homepage: https://github.com/epoberezkin/fast-deep-equal
